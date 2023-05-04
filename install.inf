@@ -1,0 +1,17 @@
+; ref https://en.wikipedia.org/wiki/INI_file
+[info]
+title=Markdown heading level change Plugin
+desc=Heading level down/up, in Markdown files
+type=cudatext-plugin
+subdir=cuda_markdown_tool
+homepage=(to write)
+
+[item2]
+section=commands
+caption=markdown tool\heading level down
+method=level_down
+
+[item3]
+section=commands
+caption=markdown tool\heading level up
+method=level_up
